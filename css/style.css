@@ -1,0 +1,7 @@
+html {background-color: midnightblue;color: white; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+.fieldset {display: flex; flex-direction: column;}
+input {margin: 5px; flex: 1;}
+h3 {color: greenyellow;}
+legend {color: cyan;}
+#calc {background-color: greenyellow; font-weight: bolder; font-size: 1.5em;}
+.disbox, .upper, .lower {border: 1px solid white; width: 60%; height: 30px; color: cyan; font-weight: bolder; font-size: 1.5em; }

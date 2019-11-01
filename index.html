@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ohm Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h3>Resistance Calculator</h3>
+    <span>COLOR GUIDE</span><div class="cguide"></div>
+    <fieldset>
+        <legend>Enter color bands</legend>
+        <div class="fieldset">
+        <input type="text" id="b1" placeholder="band 1"><br>
+        <input type="text" id="b2" placeholder="band 2"><br>
+        <input type="text" id="b3" placeholder="band 3"><br>
+        <input type="text" id="b4" placeholder="band 4"><br>
+        
+        </div>
+        <button id="calc" onclick="calculate()">Calculate</button>
+    </fieldset>
+    <div class="results">
+        <fieldset><legend>Calculated Results</legend>
+        <div class="disbox"></div></fieldset>
+        <fieldset><legend>Upper Limit</legend>
+        <div class="upper"></div></fieldset>
+        <fieldset><legend>Lower Limit</legend>
+        <div class="lower"></div></fieldset> 
+    </div>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
