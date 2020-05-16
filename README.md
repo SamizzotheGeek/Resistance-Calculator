@@ -1,2 +1,2 @@
 # Resistance-Calculator
-github pages: samizzothegeek.github.io/Resistance-Calculator
+github pages: https://samizzothegeek.github.io/Resistance-Calculator/
